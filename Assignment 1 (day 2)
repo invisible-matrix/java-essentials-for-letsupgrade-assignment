@@ -1,0 +1,31 @@
+package com.firstjava
+public class main {
+  public static void main (string[] args ) {
+      Employee e = new Employee();
+      e.name ="saurabh";
+      e.age = 25;
+      e.city = "mumbai";
+      e.display();
+      
+     Employee e1 = new Employee ();
+     e1.name="mohan";
+     e1.age= 19;
+     e1.city= "Tiruppur";
+     e1.display();
+    
+  }
+}
+
+
+ package com.employee;
+ class Employee {
+  public string name;
+  public int age ;
+  public string city ;
+  
+  public void display (){
+    system.out.println(name);
+    system.out.println(age);
+    system.out.println(city);
+  }
+}
